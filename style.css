@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500;700&family=Squada+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Markazi Text', serif;
+    font-weight: 500;
+    font-size:20px;
+    color:rgb(77, 70, 70);
+}
+h4{
+    color: rgb(1, 1, 56); 
+    font-size:45px;
+    font-weight: 700;
+}
+h5{
+    color: rgb(1, 1, 56);
+    font-weight:700;
+    font-size:30px;
+}
+h1{
+    font-family: 'Squada One', cursive;
+    font-size: 60px;
+}
+.navbar{
+    background-color:#fff7ec;
+}
+
+.navbar .container-fluid {
+    padding: 0 100px;
+}
+.navbar-brand{
+    width:60px;
+}
+.navbar-brand img{
+    width: 40%;
+    height: 30%;
+}
+a.navbar-brand {
+    display: contents;
+}
+.navbar-nav li{
+    padding: 0 15px;
+}
+.navbar-nav li a{
+  
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.navbar-nav li a:hover{
+    background: none !important;
+    border-bottom: #212529 3px solid;
+    margin-bottom: 0;
+}
+#title-main , #price{
+    color:#FA804C;
+}
+#title-optional{
+    color: rgb(1, 1, 56);
+}
+#price{
+    font-size: 50px;
+}
+.btn{
+    height: 60px;
+    font-size:25px;
+    background-color: rgb(51, 51, 216);
+    color: white;
+}
+.btn:hover{
+    background-color:white;
+    color:  rgb(51, 51, 216);
+    border: 1px solid rgb(51, 51, 216);
+}
+.casual .card img{
+    background-color: rgb(238, 236, 236);
+    padding: 10px;
+    border-radius: 25px;
+
+}
+.card{
+    border-radius: 10px !important;
+}
