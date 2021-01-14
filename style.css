@@ -23,7 +23,8 @@ h5{
 }
 h1{
     font-family: 'Squada One', cursive;
-    font-size: 60px;
+    font-size: 45px;
+    /* color: rgb(1, 1, 56); */
 }
 .navbar{
     background-color:#fff7ec;
@@ -60,9 +61,11 @@ a.navbar-brand {
 }
 #title-main , #price{
     color:#FA804C;
+    font-size: 65px;
 }
 #title-optional{
     color: rgb(1, 1, 56);
+    font-size: 65px;
 }
 #price{
     font-size: 50px;
@@ -72,6 +75,10 @@ a.navbar-brand {
     font-size:25px;
     background-color: rgb(51, 51, 216);
     color: white;
+    padding: 0 15px;
+}
+#submit-btn{
+    height: 45px;
 }
 .btn:hover{
     background-color:white;
@@ -86,4 +93,45 @@ a.navbar-brand {
 }
 .card{
     border-radius: 10px !important;
+}
+
+
+.feedbacks{
+    border-left: 4px solid #FA804C;
+}
+.feedbacks img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-review{
+    display: inline-block;
+}
+.user-review b{
+    font-size:25px;
+}    
+
+.title::before{
+    content: '';
+    background: #FA804C;
+    height: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(65px);
+    border-radius: 30px;
+}
+.title::after{
+    content: '';
+    background: #FA804C;
+    height: 14px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(2px);
+    border-radius: 30px;
+    margin-bottom: 30px;
 }
